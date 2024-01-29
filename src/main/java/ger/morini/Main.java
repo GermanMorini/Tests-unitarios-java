@@ -18,5 +18,6 @@ public class Main {
             Calculadora cal = new Calculadora();
 
             System.out.printf("La suma es: %d%n", cal.sumar(2,2));
+            System.out.printf("La división es: %.2f%n", cal.dividir(2,0));
       }
 }
